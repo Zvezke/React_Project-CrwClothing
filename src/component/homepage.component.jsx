@@ -39,5 +39,3 @@ const Homepage = () => (
 );
 
 export default Homepage;
-
-// test
