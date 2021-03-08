@@ -1,13 +1,14 @@
-import React from "react";
-import "./App.css";
-import Homepage from "./component/homepage.component.jsx";
+import React, { Component } from "react";
+import Homepage from "./pages/homepage/homepage.component.jsx";
 
-function App() {
-  return (
-    <div>
-      <Homepage />
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <Homepage />
+      </div>
+    );
+  }
 }
 
 export default App;
